@@ -1,4 +1,4 @@
-# ======================================================================
+﻿# ======================================================================
 # 19 Jekyll yapılandırması
 # ======================================================================
 
@@ -19,7 +19,7 @@ rdiscount:
 # ----------------------------------------------------------------------
 
 # github hesap adı (ör. roktas)
-account: ~
+account: elifbesli
 
 # github organizasyonu (ör. 19)
 organization: 19
@@ -63,13 +63,13 @@ param:
         # tam kullanıcı adı (ör. Recai Oktaş)
         fullname: ~
         # email adresi (ör. roktas@bil.omu.edu.tr)
-        email: ~
+        email: elif.besli@bil.omu.edu.tr
         # ünvan (ör. Bilgisayar Mühendisliği Öğrencisi)
         title: <a href="http://ondokuz.biz/">19</a> üyesi
         # GnuPG kısa parmak izi (ör. DEADBEEF)
         gpg: ~
         # twitter adresi (ör. http://19.status.net/roktas)
-        twitter: ~
+        twitter: https://twitter.com/elfbesl
         # flick adresi (ör. http://flickr.com/photos/roktas)
         flickr: ~
         # facebook adresi (ör. http://facebook.com/roktas)
@@ -107,4 +107,5 @@ param:
         # sayfa yorumları için disqus site kaydı (ör. roktas)
         disqus: ~
         # GitHub şerit metni (ör. GitHub'dayım)
-        ribbon: Gücü özgürlüğünde..
+        ribbon: GitHub’dayım.
+
