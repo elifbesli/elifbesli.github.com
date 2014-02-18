@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Windows'un yanına Ubuntu kurmak
+title: Windows'un yanına Ubuntu kurulumu
 ---
 
 Bu belgede, Windows yüklü bir bilgisayarda Windows kaldırılmadan, sabit diskin bir başka bölümüne Ubuntu'nun kurulması konusu anlatılmaktadır. Bu şekilde iki işletim sistemi ayrı ayrı çalışırılarak sorunsuzca kullanılabilir.
 
 ###1. Yöntem
-Kendinize bir Ubuntu DVD'si ya da Ubuntu USB belleği hazırladıysanız artık Ubuntu kurulumuna geçebilirsiniz.
+>Kendinize bir Ubuntu DVD'si ya da Ubuntu USB belleği hazırladıysanız artık Ubuntu kurulumuna geçebilirsiniz.
 
 Ubuntu'yu bilgisayarınıza kurmak için Ubuntu'ya ayırabileceğiniz ayrı bir disk bölümünüzün olması gereklidir. Yani nasıl ki Windows işletim sistemi genellikle “Yerel Disk (C:)” isimli disk bölümü içinde yer alıyorsa Ubuntu için de bunun gibi ayrı bir disk bölümüne ihtiyaç vardır. Halihazırda Ubuntu için kullanabileceğiniz ayrı bir bölümünüz olmasa bile anlatacağımız bu 1. kurulum yönteminde, Ubuntu için disk bölümü ayırma işlemi otomatik olarak yapılacaktır. Bu yöntem, deneyimsiz kullanıcıların Windows'u kaldırmadan kolayca Ubuntu kurmasını sağlar. Bununla birlikte bu yöntemde, kullanıcı Ubuntu'yu hangi disk bölümü içine kuracağını tam olarak belirleyemediği için ve disk bölümlendirme işlemini kendisi yapamayacağı için bu yöntem bazı kullanıcılar için yetersiz gelecektir.
 1. Yöntemde işlemlere başlamak için Ubuntu kurulum adımlarını gerçekleştirmeye başlayın. Alttaki resimdeki görüldüğü gibi kurulum türü belirleme ekranına geldindiğinizde en üstteki seçenek olan "Ubuntu dağıtımını Windows işletim sisteminin yanına kur" seçeneğini işaretleyerek devam edin.
