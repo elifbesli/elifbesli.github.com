@@ -44,7 +44,7 @@ Windows Vista ve sonraki sürümlerde yer alan, Windows’un kendi disk yönetim
 <img src ="http://wiki.ubuntu-tr.net/images/1/1b/Windows-Disk_Y%C3%B6netimi_01.png">
 
 Yeni bir bölüm oluşturmak için Disk Yönetimi arayüzünde mevcut disk bölümlerinden birini (“C” bölümü de dahil olmak üzere), içindeki boş alan kadar küçültmek suretiyle yeni bir disk bölümü oluşturabilirsiniz. İçinde belli bir miktar boş alan bulunduran bir disk bölümünü küçülterek ikiye ayırmak için o disk bölümüne sağ tıklayın ve açılan menüdeki "Birimi Küçült" seçeneğini kullanın. 
-##Ubuntu’nun kurulması
+###Ubuntu’nun kurulması
 Ubuntu kurulumunda disk bölümlendirme ile ilgili olarak, ilk önce alttaki görüntüyle karşılaşırsınız.
 
 <img src ="http://wiki.ubuntu-tr.net/images/3/37/Kurulum_03-1.png">
