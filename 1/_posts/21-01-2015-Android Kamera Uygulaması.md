@@ -3,7 +3,7 @@ layout: post
 title: CHEEZE
 ---
 
-> **BİR ANDROİD KAMERA UYGULAMASI**
+> BİR ANDROİD KAMERA UYGULAMASI
 
 Android uygulamalar üzerinden kamera bağlantısı iki türlü yapılabilmektedir. İlk yöntem uygulamadan fotoğraf çekme isteği geldiği zaman, Android üzerinde var olan kamera uygulamasının   başlatılması   ve   fotoğraf   çekildikten   sonra veriyi   uygulamaya   çekmek şeklindedir. İkinci yöntemde ise kameradan alınan görüntü direkt uygulama içerisine entegre edilip fotoğraf çekilmesi işlemini uygulamadan kontrol etmektir.
 
