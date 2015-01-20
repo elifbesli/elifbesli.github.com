@@ -229,7 +229,7 @@ Share butonu altında değinebileceğimiz en önemli nokta byte tipinde olan ver
 ----------
 
 
- **NOT:** ImageFilters ve ConvolutionMatrix sınıflarına [linkten](https://github.com/kpbird/Android-Image-Filters/tree/master/ImageEffect/src/main/java/com/kpbird/imageeffect) ulaşabilirsiniz :
+ **NOT:** ImageFilters ve ConvolutionMatrix sınıflarına [linkten](https://github.com/elifbesli/CameraApp) ulaşabilirsiniz :
 
 
 
