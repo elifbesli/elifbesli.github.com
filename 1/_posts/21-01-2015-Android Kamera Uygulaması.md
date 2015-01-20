@@ -26,8 +26,11 @@ Bu  kısımda  öncelikle  donanıma  ulaşabilmek  için  izinleri  aktif  hale
 ###1. Kamera Önizlemesinin Oluşturulması
 ---
 Bunun için CameraActivity adında bir aktivite sınıfı ve bu aktivitenin kamera görüntüsü elde edebilmesi için kullandığı Preview adında bir sınıf yaratıldı.
+
 ###1.1. Preview Sınıfı
+
 ----------
+
 Kamera  canlı  görüntüsünün  tutulabilmesi  için Android’in  şart koştuğu kurallar vardır. Bu kurallardan bir tanesi SurfaceView sınıfını extend edip SurfaceHolder.Callback interface’ini de implement eden bir sınıf olmasıdır. Projedeki Preview sınıfı bu şartı sağlayan sınıftır.
 
 *public class Preview extends SurfaceView implements*
@@ -73,7 +76,8 @@ arabirimdir.
 ----------
 
  Bu sınıfımızda onCreate(), onResume(), onPause() gibi Android Lifecycle metotlarından bazıları tanımlanmıştır.
-####1.2.1. onCreate Metodu 
+
+###1.2.1. onCreate Metodu 
 
 ----------
 
@@ -94,7 +98,7 @@ Activity  herhangi  bir  sebepten  dolayı  durdurulduysa  (başka  bir  ekrana 
 numCams  değişkeni ile  telefonda  kamera  olup olmadığının ya  da  varsa  kaç kamera olduğunun tespiti yapılır. Open(0) ile ön kameranın kullanılması sağlanır. Kameradan alınan görüntüler preview nesnesine atanır . 
 
 
-<img src ="http://i.hizliresim.com/ZAnjJo.png">
+<img src ="http://i.hizliresim.com/rmyvX1.png">
 
 ####1.2.3. onPause Metodu
 
@@ -109,6 +113,7 @@ Activity bir sebepten dolayı arka plana atılırsa harekete geçer. Bu **Back**
 
 
 <img src ="http://i.hizliresim.com/LYG8vG.jpg">
+
 ###2. Fotoğraf Çekilmesi
 
 ----------
@@ -172,11 +177,12 @@ Control.xml dosyasına efekt butonu eklendi. Filtreleme işlemlerini yapan Image
 Gri efekti üzerinden gitmek gerekirse, control.xml dosyasında oluşturulan button3 id’sine sahip buton için greyButton adında bir buton nesnesi oluşturuldu. Bu butona tıklandığında yapılacak işlemler sırasıyla şöyle olacaktır: Öncelikle bu butona basılma sayısını tutan int tipinde sayaç görevi yapacak olan bir i değişkeni tutuldu. Butona ilk kez tıklanıldığında ilgili filtre uygulanır, ikinci tıklamada ise filtre yok olur. Tıklama sayısının çift olup olmadığının anlaşılması için mod işlemi kullanıldı. Filtre uygulama işlemi butona ilk kez tıklandığında yani i%2==1 iken gerçekleşeceğinden bu kısımdan başlayalım. Filtreleme işleminin gerçekleşebilmesi için ImageFilters sınıfının applyGreyscaleEffect() metodu kullanılmalıdır. Bu metodu kendi sınıfımız içerisinde kullanabilmemiz için, ImageFilters sınıfından bir nesne oluşturuldu. applyGreyscaleEffect(bmp) metodundaki bmp adlı Bitmap değişkeni onPicturetaken metodundaki dataların Bitmap’ dönüşmüş şeklidir. Daha sonra tekrar filtresiz
 hale dönebilmek için, filtre uygulanmış Bitmap değişkenini m adlı Bitmap tipinde ayrı bir değişkende tutuldu. Yani m Bitmap şeklindeki datanın filtreli halidir. Ve son olarak da Bitmapteki değişikliklerin ekranda görüntülenmesi için m adlı Bitmap değişkeni ImageView tipindeki iv değişkenine aktarıldı.
 
-<img src ="http://i.hizliresim.com/O3aNn0.png">
+<img src ="http://i.hizliresim.com/4Z9OQJ.png">
 
 
 
 <img src ="http://i.hizliresim.com/BRGN99.jpg">
+
 ###5. Fotoğrafın Kaydedilmesi
 
 ----------
@@ -217,12 +223,13 @@ Share butonu altında değinebileceğimiz en önemli nokta byte tipinde olan ver
 <img src ="http://i.hizliresim.com/rmyp5z.png">
 
 <img src ="http://i.hizliresim.com/127Bpb.jpg">
+
 ###Uygulamanın Son Halinden Görüntüler
 
 ----------
 
 
- ****NOT**:** ImageFilters ve ConvolutionMatrix sınıflarına [linkten](https://github.com/kpbird/Android-Image- Filters/tree/master/ImageEffect/src/main/java/com/kpbird/imageeffect) ulaşabilirsiniz :
+ **NOT:** ImageFilters ve ConvolutionMatrix sınıflarına [linkten](https://github.com/kpbird/Android-Image-Filters/tree/master/ImageEffect/src/main/java/com/kpbird/imageeffect) ulaşabilirsiniz :
 
 
 
