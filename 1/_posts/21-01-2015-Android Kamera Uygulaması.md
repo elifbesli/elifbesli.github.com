@@ -1,9 +1,10 @@
 ---
 layout: post
-title: ANDROİD KAMERA UYGULAMASI
+title: CHEEZE
 ---
+> **BİR ANDROİD KAMERA UYGULAMASI**
 
-Android uygulamalar üzerinden kamera bağlantısı iki türlü yapılabilmektedir. İlk yöntem uygulamadan fotoğraf çekme isteği geldiği zaman, Android üzerinde var olan kamera uygulamasının   başlatılması   ve   fotoğraf   çekildikten   sonra veriyi   uygulamaya   çekmek şeklindedir. İkinci yöntemde ise kameradan alınan görüntü direk uygulama içerisine entegre edilip fotoğraf çekilmesi işlemini uygulamadan kontrol etmektir.
+Android uygulamalar üzerinden kamera bağlantısı iki türlü yapılabilmektedir. İlk yöntem uygulamadan fotoğraf çekme isteği geldiği zaman, Android üzerinde var olan kamera uygulamasının   başlatılması   ve   fotoğraf   çekildikten   sonra veriyi   uygulamaya   çekmek şeklindedir. İkinci yöntemde ise kameradan alınan görüntü direkt uygulama içerisine entegre edilip fotoğraf çekilmesi işlemini uygulamadan kontrol etmektir.
 
 Bu projede ikinci yöntem tercih edilmiştir. Kamera görüntüsünü cihaza entegre edip fotoğraf çekmek için öncelikle yeni bir aktivite oluşturuldu. Bu aktivitenin layout (aktivitenin görünüş düzeni)’ı içine kameradan gelen görüntünün gösterileceği bir FrameLayout konulmuştur.
 
@@ -229,7 +230,7 @@ Share butonu altında değinebileceğimiz en önemli nokta byte tipinde olan ver
 ----------
 
 
- **NOT:** ImageFilters ve ConvolutionMatrix sınıflarına [linkten](https://github.com/elifbesli/CameraApp) ulaşabilirsiniz :
+ **NOT:** ImageFilters ve ConvolutionMatrix sınıflarına [linkten](https://github.com/elifbesli/CameraApp) ulaşabilirsiniz.
 
 
 
