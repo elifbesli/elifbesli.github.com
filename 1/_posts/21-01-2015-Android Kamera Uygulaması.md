@@ -110,7 +110,9 @@ Activity bir sebepten dolayı arka plana atılırsa harekete geçer. Bu **Back**
 
 <img src ="http://i.hizliresim.com/89XWZA.gif">
 
-<img src ="http://i.hizliresim.com/GpGWm7.jpg">
+ `CameraActivity.java`
+
+<img src ="http://i.hizliresim.com/z2pgQR.jpg">
 
 
 <img src ="http://i.hizliresim.com/LYG8vG.jpg">
@@ -196,7 +198,7 @@ Bu işlemin gerçekleşmesi için, control.xml dosyasına eklenmesi gereken kod 
 
 `AsyncTask`, android uygulamalarında uzun sürecek işlemlerin arka planda yapılmasının sebebi ana akışın (Main Thread ya da UI Thread) uzun süre engellenmemesidir. Eğer ana akışı uzun süre bloke ederseniz uygulamanızın ana ekranı donacak ve kullanıcı uygulamanızın bozulduğunu düşünecektir. AsyncTask ile kaydetme işlemi arka planda ana akışa etkisi olmayacak  şekilde  gerçekleşir.  Bu  işlem  arka  planda  devam  ederken  uygulamada  başka işlemler yapılabilmesine de olanak sağlar.
 
-<img src ="http://i.hizliresim.com/D8GmRv.jpg">
+<img src ="http://i.hizliresim.com/ayNy44.jpg">
 
 Bu sınıf oluşturulduktan sonra yapılması gereken dataların elde edildiği yer olan onPicturetaken() metodunda bu sınıftan nesne oluşturup, byte tipine execute etmektir. Bu işlemden sonra fotoğraf çekildiği anda galeride yarattığımız klasöre kaydolur.
 
