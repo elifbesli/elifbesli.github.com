@@ -76,7 +76,7 @@ arabirimdir.
 
 ----------
 
- Bu sınıfımızda onCreate(), onResume(), onPause() gibi Android Lifecycle metotlarından bazıları tanımlanmıştır.
+ Bu sınıfımızda `onCreate()`, `onResume()`, `onPause()` gibi Android Lifecycle metotlarından bazıları tanımlanmıştır.
 
 ###1.2.1. onCreate Metodu 
 
@@ -87,7 +87,7 @@ arabirimdir.
 Ekranı layout   dosyası kullanılmadan programlamak için LayoutParams  kullanıldı. LinearLayout, RelativeLayout vb. gibi ViewGrouplar, LayoutParams içerik sınıfı içerir. LayoutParams oluşturulacak layoutun özelliklerini  içerir.  Preview  nesnesini  layoutta  hangi yükseklik  ve genişlikte  durması gerektiğini  aşağıdaki kod yardımıyla belirliyoruz  ve addView ile özellikleri artık belirlenmiş olan preview nesnesini Layout’ımıza ekliyoruz :
 
 <img src =" http://i.hizliresim.com/g4bvkO.png">
-setContentView metodu ile UI ekranı kullanıcıya gösterilerek aktivite başlatılmış olunur. Activity  sınıfından  türetmiş  olduğumuz  sınıflar  bir  üst  sınıfın  yani  activity  sınıfının onCreate metodunu çağırmalıdırlar. Aksi halde istisna oluşmaktadır. Bu işlemlerden sonra setContentView(R.layout.main); metodu  ile  idenin  oluşturmuş  olduğu,  ilk  görüntüdeki ekranı kullanıcıya göstermiş oluyoruz.
+setContentView metodu ile UI ekranı kullanıcıya gösterilerek aktivite başlatılmış olunur. Activity  sınıfından  türetmiş  olduğumuz  sınıflar  bir  üst  sınıfın  yani  activity  sınıfının onCreate metodunu çağırmalıdırlar. Aksi halde istisna oluşmaktadır. Bu işlemlerden sonra `setContentView(R.layout.main);` metodu  ile  idenin  oluşturmuş  olduğu,  ilk  görüntüdeki ekranı kullanıcıya göstermiş oluyoruz.
 
 
 ####1.2.2. onResume Metodu
@@ -175,7 +175,7 @@ Control.xml dosyasına efekt butonu eklendi. Filtreleme işlemlerini yapan Image
 <img src ="http://i.hizliresim.com/YjV8YD.jpg">
 
 ----------
-Gri efekti üzerinden gitmek gerekirse, control.xml dosyasında oluşturulan button3 id’sine sahip buton için greyButton adında bir buton nesnesi oluşturuldu. Bu butona tıklandığında yapılacak işlemler sırasıyla şöyle olacaktır: Öncelikle bu butona basılma sayısını tutan int tipinde sayaç görevi yapacak olan bir i değişkeni tutuldu. Butona ilk kez tıklanıldığında ilgili filtre uygulanır, ikinci tıklamada ise filtre yok olur. Tıklama sayısının çift olup olmadığının anlaşılması için mod işlemi kullanıldı. Filtre uygulama işlemi butona ilk kez tıklandığında yani i%2==1 iken gerçekleşeceğinden bu kısımdan başlayalım. Filtreleme işleminin gerçekleşebilmesi için ImageFilters sınıfının applyGreyscaleEffect() metodu kullanılmalıdır. Bu metodu kendi sınıfımız içerisinde kullanabilmemiz için, ImageFilters sınıfından bir nesne oluşturuldu. applyGreyscaleEffect(bmp) metodundaki bmp adlı Bitmap değişkeni onPicturetaken metodundaki dataların Bitmap’ dönüşmüş şeklidir. Daha sonra tekrar filtresiz
+Gri efekti üzerinden gitmek gerekirse, control.xml dosyasında oluşturulan button3 id’sine sahip buton için greyButton adında bir buton nesnesi oluşturuldu. Bu butona tıklandığında yapılacak işlemler sırasıyla şöyle olacaktır: Öncelikle bu butona basılma sayısını tutan int tipinde sayaç görevi yapacak olan bir i değişkeni tutuldu. Butona ilk kez tıklanıldığında ilgili filtre uygulanır, ikinci tıklamada ise filtre yok olur. Tıklama sayısının çift olup olmadığının anlaşılması için mod işlemi kullanıldı. Filtre uygulama işlemi butona ilk kez tıklandığında yani `i%2==1` iken gerçekleşeceğinden bu kısımdan başlayalım. Filtreleme işleminin gerçekleşebilmesi için ImageFilters sınıfının `applyGreyscaleEffect()` metodu kullanılmalıdır. Bu metodu kendi sınıfımız içerisinde kullanabilmemiz için, ImageFilters sınıfından bir nesne oluşturuldu. applyGreyscaleEffect(bmp) metodundaki bmp adlı Bitmap değişkeni onPicturetaken metodundaki dataların Bitmap’ dönüşmüş şeklidir. Daha sonra tekrar filtresiz
 hale dönebilmek için, filtre uygulanmış Bitmap değişkenini m adlı Bitmap tipinde ayrı bir değişkende tutuldu. Yani m Bitmap şeklindeki datanın filtreli halidir. Ve son olarak da Bitmapteki değişikliklerin ekranda görüntülenmesi için m adlı Bitmap değişkeni ImageView tipindeki iv değişkenine aktarıldı.
 
 <img src ="http://i.hizliresim.com/4Z9OQJ.png">
