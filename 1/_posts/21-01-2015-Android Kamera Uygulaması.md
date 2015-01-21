@@ -19,7 +19,7 @@ Bu  kısımda  öncelikle  donanıma  ulaşabilmek  için  izinleri  aktif  hale
 
 <img src =" http://i.hizliresim.com/mrRN2R.png">
 
-İzinleri hallettikten sonra, aktivitemizin main.xml adlı layout (aktivitenin görünüş düzeni)’ı içine kameradan gelen görüntünün gösterileceği ve Surfaceview görselini barındıran bir FrameLayout konulmuştur.
+İzinleri hallettikten sonra, aktivitemizin `main.xml` adlı layout (aktivitenin görünüş düzeni)’ı içine kameradan gelen görüntünün gösterileceği ve Surfaceview görselini barındıran bir FrameLayout konulmuştur.
 
 <img src =" http://i.hizliresim.com/5oqnnz.png">
 
@@ -45,25 +45,25 @@ Kamera  canlı  görüntüsünün  tutulabilmesi  için Android’in  şart koş
 *ve surfaceDestroyed().*
 
 
-***SurfaceView***,  görüntüleme sistemi için geliştirilmiş bir çizim aracıdır. Kamera önizlemesi, oyunların ekrana çizdirilmesi, paint uygulamaları gibi işlemler için kullanılan bir çizim alanıdır. Boş bir resim kağıdı veya defter gibi de düşünülebilir.
+`SurfaceView`,  görüntüleme sistemi için geliştirilmiş bir çizim aracıdır. Kamera önizlemesi, oyunların ekrana çizdirilmesi, paint uygulamaları gibi işlemler için kullanılan bir çizim alanıdır. Boş bir resim kağıdı veya defter gibi de düşünülebilir.
 
-***SurfaceHolder***,   oluşturulan   görüntüyü   ekranda   sürekli   tutmak   için   kullanılır.   Ayrıca
+`SurfaceHolder`,   oluşturulan   görüntüyü   ekranda   sürekli   tutmak   için   kullanılır.   Ayrıca
 
 SurfaceView’in boyut, format gibi bilgilerini de kontrol eder.
 
 
-***SurfaceHolder.CallBack***,  Surfaceview’deki  değişikliklerde  bilgi  almak  için  kullanılan  bir
+`SurfaceHolder.CallBack`,  Surfaceview’deki  değişikliklerde  bilgi  almak  için  kullanılan  bir
 
 arabirimdir.
 
 
-***SurfaceChanged***, SurfaceView herhangi bir değişikliğe uğradığında çalışacak ilk metottur.
+`SurfaceChanged`, SurfaceView herhangi bir değişikliğe uğradığında çalışacak ilk metottur.
 
 
-***SurfaceCreated***, SurfaceView başladığında çalışa metottur.
+`SurfaceCreated`, SurfaceView başladığında çalışa metottur.
 
 
-***SurfaceDestroyed***, SurfaceView kapatıldığında çalışacak olan metottur. 
+`SurfaceDestroyed`, SurfaceView kapatıldığında çalışacak olan metottur. 
 
 
 <img src =" http://i.hizliresim.com/pm2NrL.jpg">
@@ -126,7 +126,7 @@ Kamera önizlemesinin ardından fotoğraf çekme işleminin gerçekleştirilmesi
 
 Layout Inflater, bir XML kaynak dosyasını (layout barındırmasa da olur, hazır veya kendi oluşturduğunuz/özelleştirdiğiniz  bir  View  nesnesine  de  ait  olabilir)  alıp,  onu  bir  View nesnesine çevirmeye ve üzerinde bu yolla işlem yapmaya imkan sağlayan bir sınıftır. Haliyle View objeleri üzerinde alışılmışın üstünde işlemler yapıldığında (Activity'nin onCreate(), onResume() gibi zamanlarında değil de, daha çok kullanıcıyla etkileşim sırasında, değişen bir şarta   göre   -çalışma   zamanında-   yapılacak   değişiklikler),onları   bir   ViewGroup   altında kullanacak  olunduğunda  vs.  kullanılıyor.  Bir  view  içine  başka  bir  view koyarak  ona  şekil verebilirsiniz.
 
-**2**. **control.xml** dosyasına fotoğraf çekme butonu eklendi. 
+**2**. `control.xml` dosyasına fotoğraf çekme butonu eklendi. 
 
 <img src ="http://i.hizliresim.com/J7W88Y.jpg">
 
@@ -136,13 +136,13 @@ Layout Inflater, bir XML kaynak dosyasını (layout barındırmasa da olur, haz�
 <img src ="http://i.hizliresim.com/O3a8OD.jpg">
 
 
-takePicture butonuna basıldığında ShutterCallback ve PictureCallback adlı sınıfların metotları çağrılır.
+`takePicture` butonuna basıldığında ShutterCallback ve PictureCallback adlı sınıfların metotları çağrılır.
 
-**ShutterCallback** metodu ile denklanşöre basıldığı an dinlenir. Bu metotta genellikle denklanşör sesi ve o an için ekrana koyulacak herhangi bir görsel veya animasyon yerleştirilir. Fotoğrafın çekildiği anda ekran donar, bu da istenmedik bir görüntüye neden olur. Bunun yerine küçük bir animasyon uygulamayı daha kullanışlı hale getirecektir.
+`ShutterCallback` metodu ile denklanşöre basıldığı an dinlenir. Bu metotta genellikle denklanşör sesi ve o an için ekrana koyulacak herhangi bir görsel veya animasyon yerleştirilir. Fotoğrafın çekildiği anda ekran donar, bu da istenmedik bir görüntüye neden olur. Bunun yerine küçük bir animasyon uygulamayı daha kullanışlı hale getirecektir.
 
-**PictureCallback rawCallback**  ile fotoğrafın hiç işlenmemiş haline ulaşılabilir. Fotoğrafa herhangi bir müdahalede bulunmak isterseniz en ham veri burada bulunur.
+`PictureCallback rawCallback`  ile fotoğrafın hiç işlenmemiş haline ulaşılabilir. Fotoğrafa herhangi bir müdahalede bulunmak isterseniz en ham veri burada bulunur.
 
-**PictureCallback  jpegCallback**  ile    yaygın  olarak  kullanılan  jpeg  tipindeki  datalar  bize ulaştırılır. Buradaki veriler byte tipindedir.
+`PictureCallback  jpegCallback`  ile    yaygın  olarak  kullanılan  jpeg  tipindeki  datalar  bize ulaştırılır. Buradaki veriler byte tipindedir.
 
 
 <img src ="http://i.hizliresim.com/7VQWnL.jpg">
@@ -194,7 +194,7 @@ Bu işlemin gerçekleşmesi için, control.xml dosyasına eklenmesi gereken kod 
 
 <img src ="http://i.hizliresim.com/D8GmMO.jpg">
 
-**AsyncTask**, android uygulamalarında uzun sürecek işlemlerin arka planda yapılmasının sebebi ana akışın (Main Thread ya da UI Thread) uzun süre engellenmemesidir. Eğer ana akışı uzun süre bloke ederseniz uygulamanızın ana ekranı donacak ve kullanıcı uygulamanızın bozulduğunu düşünecektir. AsyncTask ile kaydetme işlemi arka planda ana akışa etkisi olmayacak  şekilde  gerçekleşir.  Bu  işlem  arka  planda  devam  ederken  uygulamada  başka işlemler yapılabilmesine de olanak sağlar.
+`AsyncTask`, android uygulamalarında uzun sürecek işlemlerin arka planda yapılmasının sebebi ana akışın (Main Thread ya da UI Thread) uzun süre engellenmemesidir. Eğer ana akışı uzun süre bloke ederseniz uygulamanızın ana ekranı donacak ve kullanıcı uygulamanızın bozulduğunu düşünecektir. AsyncTask ile kaydetme işlemi arka planda ana akışa etkisi olmayacak  şekilde  gerçekleşir.  Bu  işlem  arka  planda  devam  ederken  uygulamada  başka işlemler yapılabilmesine de olanak sağlar.
 
 <img src ="http://i.hizliresim.com/D8GmRv.jpg">
 
@@ -206,9 +206,10 @@ Fotoğrafın filtreleme işlemi sonucunda farklı kaydedilmesi için:
 
 <img src ="http://i.hizliresim.com/vQyV5A.jpg">
 
-**SaveImageTask** sınıfı byte tipinde data kabul ettiği için execute metodundan faydalanılır. Fakat farklı kaydet butonu araya girdiğinden, datayı fotoğrafın çekildiği anda değil de kaydet butonuna basıldığı anda kaydedebilmek için –yani filtreli hali ile- aşağıdaki yol izlenmelidir. Bu yöntem ile local değişken olan data, her yerden ulaşılmak için byte tipindeki c değişkenine atandı. Yani filtreli Bitmap olan m’nin, saveFile butonuna tıklanıldığında onClick metodu içerisinde execute edilebilmesi için tekrar byte tipine dönüştürüldü.
+`SaveImageTask` sınıfı byte tipinde data kabul ettiği için execute metodundan faydalanılır. Fakat farklı kaydet butonu araya girdiğinden, datayı fotoğrafın çekildiği anda değil de kaydet butonuna basıldığı anda kaydedebilmek için –yani filtreli hali ile- aşağıdaki yol izlenmelidir. Bu yöntem ile local değişken olan data, her yerden ulaşılmak için byte tipindeki c değişkenine atandı. Yani filtreli Bitmap olan m’nin, saveFile butonuna tıklanıldığında onClick metodu içerisinde execute edilebilmesi için tekrar byte tipine dönüştürüldü.
  
 <img src ="http://i.hizliresim.com/89X5PW.jpg">
+
 ###6. Fotoğrafın Paylaşılması
 
 ----------
