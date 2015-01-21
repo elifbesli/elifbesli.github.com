@@ -13,7 +13,7 @@ Bu projede ikinci yöntem tercih edilmiştir. Kamera görüntüsünü cihaza ent
 
 ----------
 
-Bu  kısımda  öncelikle  donanıma  ulaşabilmek  için  izinleri  aktif  hale  getirmemiz  gerekiyor. Bunun  için  AndroidManifest.xml  dosyasını  açıyoruz  ve  **<uses-sdk/>**’nın  bittiği  satırdan itibaren şu izinleri belirtiyoruz :
+Bu  kısımda  öncelikle  donanıma  ulaşabilmek  için  izinleri  aktif  hale  getirmemiz  gerekiyor. Bunun  için  AndroidManifest.xml  dosyasını  açıyoruz  ve  <uses-sdk/>’nın  bittiği  satırdan itibaren şu izinleri belirtiyoruz :
 
 
 
