@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ANDROİD KAMERA UYGULAMASI - CameraApp
+title: ANDROİD KAMERA UYGULAMASI 
 ---
 
 
