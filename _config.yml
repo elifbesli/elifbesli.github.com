@@ -61,7 +61,7 @@ param:
         # dikkat!  unix kullanıcı adı github hesabından farklı olabilir
         user: ~
         # tam kullanıcı adı (ör. Recai Oktaş)
-        fullname: Elif Beşli~
+        fullname: Elif Beşli
         # email adresi (ör. roktas@bil.omu.edu.tr)
         email: elif.besli@bil.omu.edu.tr
         # ünvan (ör. Bilgisayar Mühendisliği Öğrencisi)
