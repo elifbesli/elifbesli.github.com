@@ -3,7 +3,8 @@
   <meta name="author" content="{{ site.param.fullname }}" />
   {% if page.moved %}
   <meta http-equiv="refresh" content="3; url=http://{{ page.moved }}">
- <meta name="keywords" content="ondokuz mayýs üniversitesi      bilgisayar mühendisliði">
+<meta name="keywords" content="ondokuz mayýs universitesi bilgisayar muhendisligi
+android kamera uygulamasi elif besli omu">
   {% endif %}
   <title>{{ page.title }}</title>
   <link href="{{ site.param.feed }}" rel="alternate" title="{{ site.param.fullname }}" type="application/atom+xml" />
