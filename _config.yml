@@ -27,7 +27,7 @@ organization: 19
 # bu siteyi üreten github deposu (ör. roktas.github.com)
 # dikkat!  depo çoğunlukla <account>.github.com formundadır.  fakat başka
 # bir depo da olabilir.  url parametresi için yazılan açıklamayı okuyun.
-repository: ~
+repository: elifbesli.github.com
 
 # üretilen sitenin web adresi ne?  ör. "http://roktas.github.com".
 # CNAME kaydımız varsa bu adresi giriyoruz.  dikkat!  bu site
@@ -35,7 +35,7 @@ repository: ~
 # örneğin http://roktas.github.com/test olabilir.  fakat bu durumda
 # kurulumdan sonra "master" dalını "gh-pages" dalına birleştirmelisiniz.
 # 	git checkout -b gh-pages
-url: ~
+url: http://elifbesli.github.com
 
 # site görünümüne ilişkin olarak sitede mutlak adres yoluyla herhangi bir
 # sayfadan erişilebilecek ortak "dijital varlıklar"ın (ör. logolar) adresi.
@@ -46,7 +46,7 @@ url: ~
 # olduğuna göre bu parametre için örnek bir değer:
 #   
 # 	http://roktas.github.com/chrome
-assets: ~
+assets: http://elifbesli.github.com/chrome
 
 # ----------------------------------------------------------------------
 # site parametreleri
@@ -103,9 +103,9 @@ param:
         # google site içi arama kutusu
         google: true
         # google analytics takip numarası (ör. UA-1234567-8
-        googleanalyticsid: ~
+        googleanalyticsid: UA-32870000-1
         # sayfa yorumları için disqus site kaydı (ör. roktas)
-        disqus: ~
+        disqus: elifbesli
         # GitHub şerit metni (ör. GitHub'dayım)
         ribbon: GitHub’dayım.
 
