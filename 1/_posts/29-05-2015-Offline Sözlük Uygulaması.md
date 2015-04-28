@@ -278,7 +278,7 @@ Tüm bu işlemlerin ardından view hazır oluyor ve onu return ediyoruz.
 
 ![](http://i.hizliresim.com/b5lOWY.png)
 
-NOT: Örnek uygulamanın kaynak kodları [http://github.com/elifbesli/Android](http://github.com/elifbesli/Android "githubtadır.")
+NOT: Örnek uygulamanın kaynak kodları [githubtadır.](https://github.com/elifbesli/Android/tree/master/Turkish%20Dictionary)
 
 
 
