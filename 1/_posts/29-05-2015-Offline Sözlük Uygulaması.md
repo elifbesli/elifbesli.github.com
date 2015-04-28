@@ -51,7 +51,8 @@ Bunun için öncelikle getWritableDatabase fonksiyonu yardımıyla yazılabilir 
 
 • 46 ve 77.  satırlar arasında ve benzer olarak 78-109. satır ile 150-178. satır arasında tabloya eklenilen kelimelerin kolonlara göre yani aranılan kelimeye ve tipine göre sorgulanma işlemi yapılmıştır. Veritabanında sorgulama yapılacağı için sql cümlesi select deyimi içermelidir.  İngilizce kelime sorgusu için ENGLISH, Türkçe kelime sorgusu için ise daha önceden tanımlanmış olan TURKISH kolon adı kullanılmalıdır. Tüm kolonların sorgulanması için select sorgusunda  koymak "*" yeterlidir. Daha sonra getReadableDatabase ile okunabilir database referansına ulaşılmalıdır. Çünkü sql sorgumuz bu database referansı üzerinde çalışacaktır. 
 
-    db.rawQuery(sql, new String[]{englishWord+ ”%” });	
+    db.rawQuery(sql, new String[]{englishWord+ ”%” });
+	
 ile sql cümleciğinde yer alan “?” işareti yerine `englishWord` argümanı geçirilerek initializer sınıfı tipindeki databasede sorgulama işlemi gerçekleştirilir. Sorgu sonucu beklenildiği üzere `Cursor` tipindedir.
 
     cursor.moveToNext();	
@@ -133,7 +134,8 @@ BroadcastReceiver sınıfını oluşturmamazın asıl amacı, gelen uyarıyı ya
 
 Android uygulamalarında arka planda çalışan ve kullanıcının uygulamayla olan ilişkisini etkilemeyen işlemler için ***Service*** adında bir sınıf bulunur. Bir servis başlatıldıktan sonra, hangi uygulama açık olursa olsun çalışmaya devam edecektir. Veritabanı güncellemeleri, günlük hata raporlarının bildirilmesi gibi rutin arka plan işlemleri için bir servis yaratma ihtiyacı duyduğumuzda ***Service*** sınıfından bir alt sınıf yaratarak gerekli işlemleri kullanıcıyı rahatsız etmeden gerçekleştirebiliriz.
 
-       Intent service = new Intent(context, AlarmService.class);	
+       Intent service = new Intent(context, AlarmService.class);
+	
 `onReceive` altında `startService` ile yeni bir servis tetikleyebiliriz. Burada servise gönderilen Intent içinde `putExtra` metoduyla servisin içeriğini barındıracağı array dizisini argüman olarak veriyoruz. ***AlarmService*** sınıfı tetikleniyor ve kelimelerin kullanıcının girdiği süreye göre düzenli aralıklarla Notification.Builder aracılığıyla ekranda çıktı olarak gösteriyor.
 
 ***AlarmService.java***
@@ -236,8 +238,7 @@ Yapılandırıcı metodumuzun ilk parametresi, Adapter'ın bağlı bulunacağı 
 Önemli bir metot olan getView()'a göz atalım:
 
 Bu metodun bookmark ile olarak gösterilecek View'ı döndürdüğüne yukarıda değinmiştik. Bu amaçla view adında bir View oluşturuyoruz. Sonra bu View'a
-
-    word.xml dosyasındaki yerleşimi veriyoruz. Böylece view üzerinden
+`word.xml` dosyasındaki yerleşimi veriyoruz. Böylece view üzerinden
 word.xml'deki öğelere erişebiliyoruz:
 
 
@@ -258,6 +259,7 @@ Tüm bu işlemlerin ardından view hazır oluyor ve onu return ediyoruz.
 ![](http://i.hizliresim.com/Nq5y0Y.png)
 
 •	***doInBackground(Params... params)*** : onPreExecute() metodundan hemen sonra çalışır. Arkaplan işleminin yapıldığı kısımdır.Bu fonksiyon AsyncTask’ın  en temel fonksiyonudur.Bu fonksiyon tanımlanmaz ise AsyncTask’ın hata verdiğini görürsünüz çünkü AsyncTask temel olarak bu fonksiyon için oluşturulmuş bir yapıdır. Bu metod içine uzun süreceğini düşündüğümüz işlemleri kodlarız.UI yada Main threadını kilitleyecek programın terminate edilmesine neden olacak işlemlerin yapıldığı kısımdır. doInBackground  fonksiyonu params ile gösterilen şekilde arka plan işlemlerinde kullanılmak üzere multiple parametre alabilir. Arkaplan işlemi bitince `onPostExecute()` metodu çağrılır.
+
 •	***onPostExecute(Result result)*** : doInBackground() da yapılan işlem biter bitmez çağrılır. Arkaplan işleminin döndüğü değerleri handle ettiğimiz yani  elde edilen verileri kullanabileceğimiz yerdir. ProgressDialog  gibi bilgilendirme ekranları, bu metod içinde dismiss edilir.
 
 ***4. menu.xml***
@@ -276,7 +278,7 @@ Tüm bu işlemlerin ardından view hazır oluyor ve onu return ediyoruz.
 
 ![](http://i.hizliresim.com/b5lOWY.png)
 
-NOT: Örnek uygulamanın kaynak kodları [https://github.com/elifbesli/Android/tree/master/Turkish%20Dictionary](https://github.com/elifbesli/Android/tree/master/Turkish%20Dictionary "githubtadır.")
+NOT: Örnek uygulamanın kaynak kodları [http://github.com/elifbesli/Android](http://github.com/elifbesli/Android "githubtadır.")
 
 
 
