@@ -148,6 +148,7 @@ Android uygulamalarında arka planda çalışan ve kullanıcının uygulamayla o
 ![](http://i.hizliresim.com/d5n60Q.png)
 
 **BEHIND THE SCENES**
+
 ***1. WordListAdapter.java***
 
 ![](http://i.hizliresim.com/AmAo57.png)
