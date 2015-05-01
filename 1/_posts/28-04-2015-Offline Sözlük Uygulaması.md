@@ -265,7 +265,7 @@ Tüm bu işlemlerin ardından view hazır oluyor ve onu return ediyoruz.
 
 ***4. menu.xml***
 
-![](http://i.hizliresim.com/a5o4bB.png)
+![](http://i.hizliresim.com/d52ONV.png)
 
 ***5. word.xml***
 
@@ -277,7 +277,7 @@ Tüm bu işlemlerin ardından view hazır oluyor ve onu return ediyoruz.
 
 ***7.bookmarked.xml***
 
-![](http://i.hizliresim.com/b5lOWY.png)
+![](http://i.hizliresim.com/qYlGp5.png)
 
 NOT: Örnek uygulamanın kaynak kodları [githubtadır.](https://github.com/elifbesli/Android/tree/master/Turkish%20Dictionary)
 
