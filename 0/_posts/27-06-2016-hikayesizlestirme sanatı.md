@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Hikayesizleştirme Sanatı
+title: Hikayesizleştirme Sanatı: Torino Atı
 ---
-## Hikayesizleştirme Sanatı:  Torino Atı ##
 
-“Bu filmi gözleriniz ve kalbiniz ile izleyin.” –Bela Tarr
+“Bu filmi gözleriniz ve kalbiniz ile izleyin.”  diyor Bela Tarr.
 
 Filmi tanıtmadan önce, en azından film hakkında biraz fikir edinebilmek açısından Bela Tarr sinemasına değinmek, dünyaya Bela Tarr kadrajından bakmanın ne demek olduğunu açıklamak istiyorum.
 
@@ -21,10 +20,6 @@ Filmin yapısını anlamak için özellikle bu sahne üzerinde derin düşünül
 Arabacı(akıl), ata(beden) arabayı(ruh) taşıması için kırbaç vuruyor(acı çektiriyor).
 
 Tüm filmlerinde bıktırıcı tekrarlar, uzun sekanslar, kadrajda anlamsız bir karenin dakikalarca durmasıyla tanınan Tarr bu filminde varoluşun anlamsızlığı, saçmalığı hatta bunaltısını hissettirmek istemiştir. Her şey tekrar eder, her şey bıktırırcasına tekrar eder, hep dinmeyen bir fırtına vardır, rüzgar hep konuşur, tahtakuruları bile sus düşer rüzgara devreder sözü, birey çaresizdir, güçsüzlük, yoksunluk, bir birey olarak sistemlerin çarkı altında ezilmişlik, ruhsal olarak yalnızlık, hep insana varoluşunu sorgulatır, “neden varım ve neden acı çekmeye mahkumum?” Tarr, Nietzsche felsefesinde “aynı olanın sonsuz döngüsü” üzerinde yoğunlaştığından, filmde aynı şeyler tekrar eder, durur. Tüm anlattıklarında Nietzsche’nin gözlerini atın gözlerinde arar bir nevi Tarr. (Çünkü herkesin bildiği Nietzsche’nin, o attan pek de farkı yok. Her ikisi de film boyunca durmak bilmeyen rüzgardaki toz misali. Yok oluş herkes için aynı.) Adamın kızı, her biri 3 dakikadan 3 kez babasını giydirir, 3 kez kuyudan su almaya gidilir ve dönülür, 3 Kez yemek olarak haşlanmış patates yenir, at ahıra tüm ayrıntıları tekrardan gösterilerek 2 kez sokulur iki kez de çıkarılır. Karamsarlık her yerdedir, hep fırtına vardır. İnsan hep yalnızdır, baba-kız günde 3 cümleden fazla konuşmaz. Ölüm saçmadır, at yemeği reddederek intihar eder. Her şey karamsardır (tek geçim kaynağı at ölür, kuyudaki su kurur.), çaresizlik vardır. Baba- kız başka bir yer bulamaz ve susuz kuyuya geri dönerler.İnsanın var olduğunu hissederek bu varlığa anlam katma çabası varlığı ve hiçliği sorgulaması ve birçok yolun çaresizlik ve umutsuzluğa çıkması siyah-beyaz kadar net.Bu bunaltıcı rutin tempoda at bile yaşamayı reddeder, kuyudaki su kurur. Tarr hiçbir filminde hikayelere yer vermez, çünkü hikayeler artık bitmiştir.
-
-![](http://i.hizliresim.com/NEGP4Q.jpg)
-
-![](http://i.hizliresim.com/X4lAqj.jpg)
 
 Filmde hiçbir şey olmuyor, herhangi bir olay gerçekleşmiyor. Ama bir hiçliği anlatmanın en güzel yolu da bu değil midir aslında?.Tarr duruma öyle özgün  dokunmuş ki, kamera açısını değiştirerek bile duruma yeni bir boyut kazandırıyor ve seyirciye yeni bir düşünce katmanı sunuyor. Hiçliğin hikayesi tüm bu kadraj, ışık, müzik gibi eldeki malzemelerin doğru yer ve zamanda kullanımı ve yönetmenin de yeteneğiyle paralel bir şekilde oluşmaya başlıyor.
 Yağını kabul etmeyip yanmayan fitil ile beraber sönen ışıklar karşısında Ohlsdorfer son sözünü söyler: “Yarın olsun, yine deneriz.” Ve böyle sürüp giden sonsuz bir döngü  devam eder.
