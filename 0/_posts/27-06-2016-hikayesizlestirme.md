@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hikayesizleştirme Sanatı: Torino Atı
+title: Hikayesizleştirme Sanatı
 ---
 
 “Bu filmi gözleriniz ve kalbiniz ile izleyin.”  diyor Bela Tarr.
