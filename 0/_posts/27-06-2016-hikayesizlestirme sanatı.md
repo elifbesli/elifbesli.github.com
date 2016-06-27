@@ -3,7 +3,7 @@ layout: post
 title: Hikayesizleştirme Sanatı: Torino Atı
 ---
 
-“Bu filmi gözleriniz ve kalbiniz ile izleyin.”  dedi Bela Tarr.
+“Bu filmi gözleriniz ve kalbiniz ile izleyin.”  diyor Bela Tarr.
 
 Filmi tanıtmadan önce, en azından film hakkında biraz fikir edinebilmek açısından Bela Tarr sinemasına değinmek, dünyaya Bela Tarr kadrajından bakmanın ne demek olduğunu açıklamak istiyorum.
 
@@ -27,6 +27,7 @@ Yağını kabul etmeyip yanmayan fitil ile beraber sönen ışıklar karşısın
 ![](http://i.hizliresim.com/mLRBL2.jpg)
 
 Son olarak, film gerçekleri ya da Tarr’ın deyimiyle “varolmanın dayanılmaz ağırlığı”nı konu edindiğinden, dayanamayıp kapatabilirsiniz. Ama bence bu da filmin ne kadar başarılı olduğunun bir göstergesidir.
+
 İyi Seyirler.
 
 
