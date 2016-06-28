@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ANDROID KAMERA UYGULAMASI 
+title: ANDROiD KAMERA UYGULAMASI 
 ---
 
 
